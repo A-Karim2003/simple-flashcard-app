@@ -1,12 +1,19 @@
-# React + Vite
+# 🃏 Flash Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive flash cards app built with React.  
+Click a card to flip and reveal the answer. Only one card can be active at a time.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React functional components
+- CSS flip animation using `transform` and `backface-visibility`
+- Responsive layout with CSS Grid
+- State lifting to control active card
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/flash-cards-app.git
+   cd flash-cards-app
