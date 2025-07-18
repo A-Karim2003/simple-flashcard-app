@@ -17,3 +17,5 @@ Click a card to flip and reveal the answer. Only one card can be active at a tim
    ```bash
    git clone https://github.com/your-username/flash-cards-app.git
    cd flash-cards-app
+   npm install
+   npm start
